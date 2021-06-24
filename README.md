@@ -1,5 +1,4 @@
-# Projeto de Jogos
-
+# BRAIN TRAIN
 Instituição: UniCEUB<br/>
 Disciplina: Projeto de Jogos<br/>
 Professor: Fabricio Ofugi<br/>
