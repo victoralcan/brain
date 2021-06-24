@@ -6,9 +6,24 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons/faPhone';
 import { faLongArrowAltDown } from '@fortawesome/free-solid-svg-icons/faLongArrowAltDown';
 import { faGripLines } from '@fortawesome/free-solid-svg-icons/faGripLines';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons/faChevronRight';
+import { faQuestionCircle } from '@fortawesome/free-solid-svg-icons/faQuestionCircle';
+import { faBars } from '@fortawesome/free-solid-svg-icons/faBars';
+import { faHome } from '@fortawesome/free-solid-svg-icons/faHome';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 
 export const loadIcons = () => {
-  library.add(faDollarSign, faPlus, faMinus, faPlayCircle, faPhone, faLongArrowAltDown, faGripLines, faChevronRight);
+  library.add(
+    faDollarSign,
+    faPlus,
+    faMinus,
+    faPlayCircle,
+    faPhone,
+    faLongArrowAltDown,
+    faGripLines,
+    faChevronRight,
+    faQuestionCircle,
+    faBars,
+    faHome,
+  );
 };
