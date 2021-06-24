@@ -4,7 +4,7 @@ import logo from '../content/images/brain.png';
 import '../styles/pages/result.scss';
 import { connect } from 'react-redux';
 import { Col, Row, Button } from 'reactstrap';
-import { RouteComponentProps } from 'react-router-dom';
+import { RouteComponentProps, Link } from 'react-router-dom';
 import { IRootState } from 'shared/reducers';
 
 interface IResultProps extends StateProps, DispatchProps, RouteComponentProps<{ acertos: string }> {}

@@ -175,7 +175,6 @@ export default (state: OpenTriviaState = initialState, action): OpenTriviaState 
         questoesComToken: [...action.payload.data.results],
       };
     case SUCCESS(ACTION_TYPES.GET_QUESTOES_COM_PARAMETROS):
-      console.log(action.payload);
       return {
         ...state,
         loading: false,

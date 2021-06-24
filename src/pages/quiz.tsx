@@ -55,9 +55,8 @@ class Quiz extends React.Component<IQuizProps, IQuizState> {
 
   render() {
     const { questoesComParametros } = this.props;
-    const { actualQuestionIndex, correctAnswers } = this.state;
+    const { actualQuestionIndex } = this.state;
     const actualQuestion = questoesComParametros[actualQuestionIndex];
-    console.log(correctAnswers);
     return (
       <div className="d-flex h-100 align-items-center justify-content-center">
         {questoesComParametros.length > 0 && (
